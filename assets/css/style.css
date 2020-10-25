@@ -1,28 +1,38 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .header--info {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 0;
 }
-
+.brown-color{
+    color:#9B4822 !important;
+}
 .header--info-number {
     grid-column: 1/7;
-    background-color: red;
-    clip-path: polygon(95% 100%, 100% 0%, -100% 0%, -100% 100%);
+    background-color: #9B4822;
+    clip-path: polygon(97% 100%, 100% 0%, -100% 0%, -100% 100%);
+    display: flex;
+justify-content: left;
+align-items: center;
 }
 
 .header--info-mail {
     grid-column: 7/13;
-    background-color: green;
-    clip-path: polygon(100% 100%, 100% 0%, 4% 0.00%, -0% 100%);
+    background-color: #240606;
+    clip-path: polygon(100% 100%, 100% 0%, 3% 0%, -0% 100%);
+    display: flex;
+justify-content: right;
+align-items: center;
 }
 .header--info-mail_text{
     text-align: right;
 }
 .hero{
-    height: 400px;
+    height: 500px;
 }
 .hero--component{
     position: relative;
@@ -40,9 +50,23 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.hero--header-text{
+    text-transform: uppercase;
+}
 .hero--component_button{
     background: #9B4822;
     color: #fff;
     padding: 10px 15px;
     border-radius: 0;
+    transition: all .5s;
+}
+.hero--component_button:hover{
+    color: #9B4822;
+    background: #fff;
+    
+}
+.card{
+    margin: 15px;
+    border: none !important;
+    box-shadow: 0px 2px 3px rgba(39, 38, 38, 0.76);
 }
