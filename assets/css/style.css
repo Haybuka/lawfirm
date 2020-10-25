@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.header--info {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0;
+}
+
+.header--info-number {
+    grid-column: 1/7;
+    background-color: red;
+    clip-path: polygon(95% 100%, 100% 0%, -100% 0%, -100% 100%);
+}
+
+.header--info-mail {
+    grid-column: 7/13;
+    background-color: green;
+    clip-path: polygon(100% 100%, 100% 0%, 4% 2.00%, -0% 100%);
+}
+.header--info-mail_text{
+    text-align: right;
+}
