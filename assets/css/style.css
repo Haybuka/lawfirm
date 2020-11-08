@@ -95,5 +95,8 @@ align-items: center;
     .card--info{
         padding: 15px !important;
     }
+    .practice-areas{
+        padding: 10px !important;
+    }
 
 }
