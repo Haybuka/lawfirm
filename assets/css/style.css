@@ -80,6 +80,9 @@ align-items: center;
 }
 
 @media screen and (max-width:600px){
+    .about{
+        padding: 10px !important;
+    }
     .header--info-mail{
         padding: 5px;
     }
@@ -87,6 +90,7 @@ align-items: center;
         padding: 5px;
     }
     .card--info{
-        padding: 5px !important;
+        padding: 15px !important;
     }
+
 }
