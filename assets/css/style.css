@@ -97,6 +97,10 @@ align-items: center;
     .about{
         padding: 5px !important;
     }
+    .about-info .card-body{
+        margin-top: 10px;
+        padding: 0;
+    }
     .header--info{
         display: block;
     }
