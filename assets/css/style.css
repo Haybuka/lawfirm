@@ -93,6 +93,22 @@ align-items: center;
 .judge-img {
     width: 100%;
 }
+.services .card{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    
+}
+.services-div{
+    width: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+.theme--text{
+    text-transform: uppercase;
+    color: #9B4822;
+    ;
+}
 @media screen and (max-width:600px){
     .about{
         padding: 5px !important;
