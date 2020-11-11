@@ -79,7 +79,20 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-
+.card--info .card-body{
+    padding: 0 !important;
+}
+.card--info .card{
+    padding: 20px;
+}
+.judge {
+    width: 600px !important;
+    justify-content: space-around;
+    display: flex;
+}
+.judge-img {
+    width: 400px;
+}
 @media screen and (max-width:600px){
     .about{
         padding: 5px !important;
