@@ -98,5 +98,8 @@ align-items: center;
     .practice-areas{
         padding: 10px !important;
     }
+    .hidden{
+        display: none;
+    }
 
 }
