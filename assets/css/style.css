@@ -97,7 +97,11 @@ align-items: center;
     justify-content: space-around;
     display: flex;
     align-items: center;
-    
+    border-radius: 0;
+    padding: 20px;
+}
+.services .row{
+    padding: 50px;
 }
 .services-div{
     width: 100px;
@@ -128,6 +132,9 @@ align-items: center;
     }
     .card--info{
         padding: 15px !important;
+    }
+    .services .row{
+        padding: 10px;
     }
     .practice-areas{
         padding: 10px !important;
