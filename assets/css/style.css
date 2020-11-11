@@ -86,12 +86,12 @@ align-items: center;
     padding: 20px;
 }
 .judge {
-    width: 600px !important;
+    
     justify-content: space-around;
     display: flex;
 }
 .judge-img {
-    width: 400px;
+    width: 100%;
 }
 @media screen and (max-width:600px){
     .about{
